@@ -86,4 +86,3 @@ $ git add git-irl.txt >>> after chamges have been made to the file, git add (fil
 git init
 cd (desired-repo)
 ****
-test
