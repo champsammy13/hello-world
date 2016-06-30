@@ -1,0 +1,84 @@
+***Git IRL***
+
+git init
+Reinitialized existing Git repository in C:/Users/Anthony A/.git/
+
+git clone (repository html) <<<html for hello-world used (https://github.com/champsammy13/hello-world)
+
+***
+drag and drop desired file into the file path described by git, in this case the file path is
+C:\Users\Anthony A\hello-world    (C:\Users\Anthony A\ (repository_name)
+
+***
+
+cd hello-world <<< cd (desired_repository)
+
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        git-irl.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Anthony A@LAPTOP-I6EE8F39 MINGW64 ~/hello-world (master)
+$ git add git-irl.txt >>> git add filename (adds the desired file in the staging area.
+
+
+*** Checking the status of a project in git ****
+
+
+Anthony A@LAPTOP-I6EE8F39 MINGW64 ~/hello-world (master)
+$ git status >>> Checks the status of the project in git
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   git-irl.txt
+
+
+Anthony A@LAPTOP-I6EE8F39 MINGW64 ~/hello-world (master)
+$
+
+
+
+*** Checking any changes made in the file (marked by a + ) ***
+
+Anthony A@LAPTOP-I6EE8F39 MINGW64 ~/hello-world (master)
+$ git diff git-irl.txt >>> git diff (filename) generates a list of changes made
+diff --git a/git-irl.txt b/git-irl.txt
+index 6f2e307..cae02b1 100644
+--- a/git-irl.txt
++++ b/git-irl.txt
+@@ -22,3 +22,20 @@ Untracked files:
+         git-irl.txt
+
+ nothing added to commit but untracked files present (use "git add" to track)
++
++Anthony A@LAPTOP-I6EE8F39 MINGW64 ~/hello-world (master)
++$ git add git-irl.txt >>> git add filename (adds the desired file in the staging area.
++
++Anthony A@LAPTOP-I6EE8F39 MINGW64 ~/hello-world (master)
++$ git status >>> Checks the status of the project in git
++On branch master
++Your branch is up-to-date with 'origin/master'.
++Changes to be committed:
++  (use "git reset HEAD <file>..." to unstage)
++
++        new file:   git-irl.txt
++
++
++Anthony A@LAPTOP-I6EE8F39 MINGW64 ~/hello-world (master)
++$
++
+
+Anthony A@LAPTOP-I6EE8F39 MINGW64 ~/hello-world (master)
+$
+
+***** Adding changes made to the file in the staging area ****
+$ git add git-irl.txt >>> after chamges have been made to the file, git add (filename) adds the changes to staging
+
+
