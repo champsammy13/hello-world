@@ -44,7 +44,7 @@ Anthony A@LAPTOP-I6EE8F39 MINGW64 ~/hello-world (master)
 $
 
 
-
+Today's changes, will try git diff git-irl.txt to see if I can check the diff in this text.
 *** Checking any changes made in the file (marked by a + ) ***
 
 Anthony A@LAPTOP-I6EE8F39 MINGW64 ~/hello-world (master)
@@ -82,3 +82,8 @@ $
 $ git add git-irl.txt >>> after chamges have been made to the file, git add (filename) adds the changes to staging
 
 
+***Things to remember when booting up BASH ***
+git init
+cd (desired-repo)
+****
+test
